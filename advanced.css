@@ -1,0 +1,80 @@
+.first-div{
+    margin: 1%;
+    border: 1px solid black;
+}
+
+.advanced{
+    color: rgb(217, 48, 37);
+    margin: 3%;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.new-ul{
+    text-align: right;
+    align-items: flex-start;
+    align-items: start;
+    
+}
+
+.contain{
+    margin: 3%;
+}
+
+.line-1{
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+}
+
+.form{
+    font-size: 14px;
+}
+
+input[type="text"]{
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    outline-color: rgba(0, 0, 0, 87);
+    width: 500px;
+    height: 30px;
+}
+
+input[type="text"]:focus{
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    outline-color: lightskyblue;
+    width: 500px;
+}
+
+#one{
+    margin-left: 100px;
+}
+
+#two{
+    margin-left: 37px;
+}
+
+#three{
+    margin-left: 72px;
+}
+
+#four{
+    margin-left: 62px;
+}
+
+input[type=submit]{
+    background-color: rgb(77, 144, 254);
+    color: white;
+    border:0;
+    outline:0;
+    font-weight: 500;
+    padding: 5px 15px 5px 15px;
+    margin-left: 43.4%;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(8, 103, 255);
+    transition: 100ms;
+    border-radius: 20px;
+    box-shadow: 5cm;
+}

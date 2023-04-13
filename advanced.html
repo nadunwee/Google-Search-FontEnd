@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="advanced.css">
+    <title>Advanced Search</title>
+</head>
+<body>
+    <!-- Navigation bar  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" width="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Google Search</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="image.html">Image Search</a>
+                </li>
+              </ul>
+        </div>
+      </nav>
+
+    <div class="advanced">
+        Advanced Search
+    </div>
+    <hr>
+    <div class="contain">
+        <div class="line-1">Find pages with...</div>
+        <br>
+        <div class="form">
+            <form action="https://www.google.com/search">
+                all these words:<input type="text" name="q" id="one"><br><br>
+                this exact word or phrase:<input type="text" name="as_epq" id="two"><br><br>
+                any of these words: <input type="text" name="as_oq" id="three"><br><br>
+                none of these words: <input type="text" name="as_eq" id="four"><br><br>
+                <input type="submit" value="Advanced Search">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

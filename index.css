@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.first-div{
+    margin: 1%;
+}
+
+.second-div{
+    
+    margin: 1%;
+    margin-top: 10%;
+    align-content: center;
+}
+
+.logo{
+    
+    margin: 1%;
+    text-align: center;
+}
+
+.search-box{
+    
+    margin: 1%;
+    text-align: center;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding-left: 2%;
+    border-radius: 25px;
+    height: 45px;
+    outline-color: rgba(0, 0, 0, 87);
+    width: 500px;
+}
+
+input[type="text"]:focus{
+    border: 1px solid #ccc;
+    padding-left: 2%;
+    border-radius: 25px;
+    height: 45px;
+    outline-color: lightblue;
+    width: 500px;
+}
+
+.submit{   
+    margin: 1%;
+}
+
+input[type=submit]{
+    background-color: rgb(248, 249, 250);
+    border: none;
+    color: #000000;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+input[type=submit]:hover{
+    border-style: solid; /* Set the border style to solid */
+    border-width: 2px; /* Set the border width to 2px */
+    border-color: #ccc; /* Set the border color to gray */
+}
